@@ -30,11 +30,8 @@ public class selectionSort {
 			int temp = array[i];
 			array[i] = array[min_index];
 			array[min_index] = temp;
-			
 		}
-		
-	}
-	
+	}	
 	
 	public static void main(String[] args) {
 		int [] array = {20,12,10,15,2};
