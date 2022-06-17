@@ -35,8 +35,8 @@ public class bubbleSort {
     }
 
     public static void main(String[] args) {
-        int [] array = {-2,45,0,11,-9};
-        bubbleSort.bSort(array,false);
+        int [] array = {0,-8,19,5,-21,2,3,9,-1};
+        bubbleSort.bSort(array,true);
         System.out.println("\nSorted Array: "+Arrays.toString(array));
     }
 }

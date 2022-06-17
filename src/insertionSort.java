@@ -19,14 +19,12 @@ public class insertionSort {
                     --j;
                     System.out.println(Arrays.toString(array));
                 }
-
             }else{
                 while (j >= 0 && key > array[j]) {
                     array[j + 1] = array[j];
                     --j;
                     System.out.println(Arrays.toString(array));
                 }
-
             }
             array[j+1]=key;
             System.out.println(Arrays.toString(array));
@@ -36,8 +34,9 @@ public class insertionSort {
     }
 
     public static void main(String[] args) {
-        int [] array = {20,12,10,15,2};
-        insertionSort.insertSort(array,false);
+
+        int[] array = {0, -8, 19, 5, -21, 2, 3, 9, -1};
+        insertionSort.insertSort(array,true);
         System.out.println("\nSorted Array: "+Arrays.toString(array));
     }
 }
